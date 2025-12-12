@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build-template": "e2b run build.prod.ts",
-    "build-template:dev": "e2b run build.dev.ts",
-    "build-template:prod": "e2b run build.prod.ts",
+    "build-template": "tsx build.prod.ts",
+    "build-template:dev": "tsx build.dev.ts",
+    "build-template:prod": "tsx build.prod.ts",
     "preview": "vite preview",
     "type-check": "tsc --noEmit",
     "clean": "rm -rf dist"
@@ -20,10 +20,11 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@animation-starter/tsconfig": "workspace:*",
     "@remotion/cli": "^4.0.252",
     "@vitejs/plugin-react": "^4.3.4",
+    "dotenv": "^16.4.7",
     "e2b": "^2.8.3",
+    "tsx": "^4.19.2",
     "vite": "^6.0.3",
     "typescript": "^5.7.2",
     "@types/node": "^20.0.0"
