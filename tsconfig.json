@@ -1,5 +1,5 @@
 {
-  "extends": "@animation-starter/tsconfig/base.json",
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2022"]
   },
