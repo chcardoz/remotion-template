@@ -1,6 +1,6 @@
 import { AbsoluteFill, useCurrentFrame, useVideoConfig } from "remotion";
 
-export const HelloWorld: React.FC = () => {
+export const RootComposition: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 

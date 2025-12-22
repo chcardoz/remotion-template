@@ -1,7 +1,7 @@
 import { Player } from "@remotion/player";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { HelloWorld } from "./HelloWorld";
+import { RootComposition } from "./Root";
 
 const rootElement = document.getElementById("root");
 if (!rootElement) {
@@ -32,7 +32,7 @@ root.render(
         }}
       >
         <Player
-          component={HelloWorld}
+          component={RootComposition}
           durationInFrames={150}
           compositionWidth={1920}
           compositionHeight={1080}
