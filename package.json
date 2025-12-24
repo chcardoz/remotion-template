@@ -19,10 +19,11 @@
     "remotion": "^4.0.252"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.3.8",
+    "@biomejs/biome": "^2.3.10",
     "@remotion/cli": "^4.0.252",
     "@types/node": "^20.0.0",
     "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.0",
     "@vitejs/plugin-react": "^4.3.4",
     "dotenv": "^16.4.7",
     "tsx": "^4.19.2",
